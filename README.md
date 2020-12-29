@@ -9,6 +9,10 @@
 
 # MSSC Brewery BOM (Bill of Materials)
 
+Since this BOM is not published to Maven Central - which is outside scope - this BOM is not being used for the microservices
+- All Beer Works microservices will inherit from John Thompson's com.github.sfg-beer-works brewery-BOM so they can actually work with on the Cloud
+
+- Still provides a good example of a local computer BOM implementation
 
 Deconstruction Process - 12/28/2020
 
