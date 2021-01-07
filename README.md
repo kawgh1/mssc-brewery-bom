@@ -17,8 +17,9 @@ Since this BOM is not published to Maven Central - which is outside scope - this
 
 # How to do a Maven release on Maven Central with ossrh
     - # mvn release:prepare -P ossrh
-   - [John Thompson's lesson in Microservices](#https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/learn/lecture/17179256)
-   - [John Thompson's Maven course](#https://www.udemy.com/course/apache-maven-beginner-to-guru/)
+   - [John Thompson's lesson in Microservices](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/learn/lecture/17179256)
+   - [John Thompson's Maven course](https://www.udemy.com/course/apache-maven-beginner-to-guru/)  
+     
 Deconstruction Process - 12/28/2020
 
 	- Where We Are At
