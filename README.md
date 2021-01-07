@@ -20,10 +20,9 @@ Since this BOM is not published to Maven Central - which is outside scope - this
    - [John Thompson's lesson in Microservices](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/learn/lecture/17179256)
    - [John Thompson's Maven course](https://www.udemy.com/course/apache-maven-beginner-to-guru/)  
      
-Deconstruction Process - 12/28/2020
-
-	- Where We Are At
-		- Beer Monolith has been broken down into 3 independent microservices
+- Deconstruction Process - 12/28/2020
+	 - Where We Are At
+	    - Beer Monolith has been broken down into 3 independent microservices
 			- Beer Service, Beer Inventory and Beer Order Service
 		- Each microservice is using its own in-memory database, its own repository
 		- Setup inter-service communication for read operations
@@ -37,7 +36,6 @@ Deconstruction Process - 12/28/2020
 		- Monolith was using Spring Events and scheduled jobs for these features
 			- Events and consumers of events is broken
 		- The 3 services are using Maven, but there is a high degree of duplication in Maven POM files
-
 
 	- Next Steps
 		- Establish a Maven BOM (Bill of Materials) to reduce duplication in Maven POMs
